@@ -1,2 +1,2 @@
 #!/bin/bash
-echo hello $USER
+echo $(printf $PATH | tr ":" "\n" wc -w)
